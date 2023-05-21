@@ -1,0 +1,12 @@
+<suite name = "Before and After suite annotations">
+      <test name = "Program 4">
+            <classes>
+                  <class name = "com.codingiri.TestNG_Test.Before_And_After_suite_Annotations"/> //it contain before and after test annotations
+            </classes>
+      </test>
+      <test name = "Program 2">
+            <classes>
+                  <class name = "com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity"/> //it doesn't contain Before and after  test annotations so it starts with before class and before method
+            </classes>
+      </test>
+</suite>

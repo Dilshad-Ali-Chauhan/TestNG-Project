@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Include Exclude Method Suite]">
+  <test thread-count="5" name="Provide Method(failed)">
+    <classes>
+      <class name="com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="category_options_in_ascending_order_test"/>
+        </methods>
+      </class> <!-- com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity -->
+    </classes>
+  </test> <!-- Provide Method(failed) -->
+</suite> <!-- Failed suite [Include Exclude Method Suite] -->

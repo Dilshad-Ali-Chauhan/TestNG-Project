@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Before and After annotations]">
+  <test thread-count="5" name="Program 2(failed)">
+    <classes>
+      <class name="com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity">
+        <methods>
+          <include name="advanced_search_keywords_test"/>
+          <include name="ebay_logo_link_navigation_home_page_test"/>
+          <include name="setup"/>
+          <include name="category_options_in_ascending_order_test"/>
+          <include name="Empty_advanced_search_test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity -->
+    </classes>
+  </test> <!-- Program 2(failed) -->
+</suite> <!-- Failed suite [Before and After annotations] -->

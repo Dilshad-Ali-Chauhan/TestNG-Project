@@ -1,0 +1,20 @@
+<suite name = "Sanity Test Suite" parallel = "classes" thread-count = "2"> 
+//to execute classes parallel we use parallel we also run parallel test and method instead of classes......
+//thread count is 2 because we have 2 class ..in parallel execution two browser are open at the same time run test 
+  <parameters>
+      <parameter name = "browser" value = "chrome"/>
+       <parameter name = "driverexe" value = "C:\\Users\\Dilshad\\Documents\\Drivers\\chromedriver.exe"/>
+  </parameters>
+    <groups>
+         <run>
+              <include name = "p0"/>  //we can add multiple groups 
+              <include name = "p2"/>       
+         </run>
+    </groups>
+      <test name = "Release 2021.7 Sanity Testing">
+            <classes>
+                  <class name = "com.codingiri.TestNG_Test.First_Ebayhome_sanity"/>
+                  <class name = "com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity"/>
+            </classes>
+      </test>
+</suite>

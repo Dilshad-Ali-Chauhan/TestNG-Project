@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Sanity Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="driverexe" value="C:\\Users\\Dilshad\\Documents\\Drivers\\chromedriver.exe"/>
+  <test thread-count="2" parallel="classes" name="Release 2021.7 Sanity Testing(failed)">
+    <groups>
+      <run>
+        <include name="p0"/>
+        <include name="p2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity">
+        <methods>
+          <include name="setup"/>
+          <include name="category_options_in_ascending_order_test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity -->
+      <class name="com.codingiri.TestNG_Test.First_Ebayhome_sanity">
+        <methods>
+          <include name="setup"/>
+          <include name="Empty_Search_Test_softAssert"/>
+          <include name="Empty_Search_Test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.codingiri.TestNG_Test.First_Ebayhome_sanity -->
+    </classes>
+  </test> <!-- Release 2021.7 Sanity Testing(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->

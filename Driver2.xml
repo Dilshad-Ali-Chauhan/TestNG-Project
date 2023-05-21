@@ -1,0 +1,17 @@
+<suite name = "Include Exclude Method Suite">
+  <test name = "Provide Method">
+    <classes>
+      <class name = "com.codingiri.TestNG_Test.First_Ebayhome_sanity">
+         <methods>
+            <include name = " Empty_Search_Test()"/>
+         </methods>
+      </class>
+       
+       <class name = "com.codingiri.TestNG_Test.Second_Ebay_Advanced_Search_sanity">
+           <methods>
+             <exclude name = " Empty_advanced_search_test()"/>   //all test method of a class apart from exclude method will get executed.
+           </methods>
+       </class>
+    </classes>
+  </test>
+</suite>
